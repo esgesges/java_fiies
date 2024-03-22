@@ -1,0 +1,13 @@
+
+ARRAY LIST
+
+List<String> test = new ArrayList<String>();
+String s = "hi";
+test.add("String");
+test.add(s);
+test.add(s+s);
+System.out.println(test.size());
+System.out.println(test.contains(42));
+System.out.println(test.contains("hihi"));
+test.remove("hi");
+System.out.rptinln(test.size());
